@@ -3,7 +3,6 @@ import React, { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { updateReadme } from '../redux/reducers/repositories'
-import './readme.scss'
 
 const Readme = () => {
   const { userName, repositoryName } = useParams()

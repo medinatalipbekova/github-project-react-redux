@@ -3,6 +3,9 @@
   "version": "0.0.2",
   "description": "Boilerplate",
   "main": "index.js",
+  "engines": {
+    "node": "v12.16.3"
+  },
   "scripts": {
     "docker-start-dev": "docker-compose -f \"docker\\DEV.docker-compose.yml\" up",
     "docker-stop-dev": "docker-compose -f \"docker\\DEV.docker-compose.yml\" down",
@@ -181,3 +184,4 @@
     }
   }
 }
+
